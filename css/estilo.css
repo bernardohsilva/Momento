@@ -53,6 +53,17 @@ li a:hover{
     justify-items: center;
 }
 
+.containeer{ 
+    width: 40vw;
+    margin: auto;
+    border: 2px solid black;
+    border-radius: 1rem;
+    margin-bottom: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+}
+
 .container h2{
     background-color: black;
     color: white;
