@@ -9,13 +9,6 @@ const addUsuario = () => {
     let poupança = Math.floor(Math.random() * 10 )
     let divErro = document.querySelector('.div-erro')
 
-if(nome=="" || email == ""||idade == "" || CPF == "" || numero == ""){
-    divErro.style.display ='block'
-}else{
-    divErro.style.display = 'none'
-}
-
-
     if(localStorage.getItem('usuarios') != null){
         usuarios = JSON.parse(localStorage.getItem('usuarios'))
     }
