@@ -53,6 +53,17 @@ li a:hover{
     justify-items: center;
 }
 
+.containeer{ 
+    width: 40vw;
+    margin: auto;
+    border: 2px solid black;
+    border-radius: 1rem;
+    margin-bottom: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+}
+
 .container h2{
     background-color: black;
     color: white;
@@ -96,6 +107,11 @@ li a:hover{
     color: black;
 }
 
+#tutorial{
+    color: white;
+    font-weight: 800;
+}
+
 .list{
     width: 100%;
 }
@@ -120,19 +136,6 @@ li a:hover{
     border-radius: 5px;
 }
 
-.div-erro{
-    margin: auto;
-    width: 70%;
-    border: 2px solid red;
-    background-color: rgb(243, 61, 61);
-    color: rgb(255, 255, 255);
-    font-weight: bold;
-    margin-bottom: 1rem;
-    border-radius: 0.5rem;
-    padding: 1rem;
-    text-align: center;
-    display: none;
-}
 #oque{
     padding-left: 0%;
     font-weight: 700;
@@ -161,6 +164,20 @@ li a:hover{
     margin-right: 10px;
 }
 
+h3{
+    font-size: 30px ;
+    text-align: center;
+}
+
+h1{
+    margin-left: 10px;
+}
+
+p{
+    margin-left: 4px;
+    font-size: 20px;
+    padding-bottom: 60px;
+}
 
 footer{
     background-color: black;

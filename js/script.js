@@ -6,15 +6,6 @@ const addUsuario = () => {
     let idade = document.getElementById('idade').value
     let CPF = document.getElementById('CPF').value
     let numero = document.getElementById('numero').value
-    let poupança = Math.floor(Math.random() * 10 )
-    let divErro = document.querySelector('.div-erro')
-
-if(nome=="" || email == ""||idade == "" || CPF == "" || numero == ""){
-    divErro.style.display ='block'
-}else{
-    divErro.style.display = 'none'
-}
-
 
     if(localStorage.getItem('usuarios') != null){
         usuarios = JSON.parse(localStorage.getItem('usuarios'))
